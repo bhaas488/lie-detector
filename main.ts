@@ -2,7 +2,7 @@ let readings = 0
 let stddev = 0
 let elec = 0
 OLED.init(64, 128)
-OLED.showString("Please place your fingers on the sensor.")
+OLED.showString("Please place your fingers on the sensor")
 basic.pause(3000)
 let std = Math.sqrt(stddev / 30)
 let list: number[] = []
